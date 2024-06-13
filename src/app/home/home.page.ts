@@ -8,5 +8,18 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+  
+  logout() {
+    // Implementación de logout
+  }
+
+  changeImage() {
+    // Implementación de changeImage
+  }
+
+  // Asegúrate de que profile esté declarado o inicializado
+  profile: any = {
+    imageUrl: '...'
+  };
 
 }
